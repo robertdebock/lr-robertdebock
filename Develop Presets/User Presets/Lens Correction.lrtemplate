@@ -1,0 +1,13 @@
+s = {
+	id = "16D7806A-B03A-4CA3-8323-946F583F06D0",
+	internalName = "Lens Correction",
+	title = "Lens Correction",
+	type = "Develop",
+	value = {
+		settings = {
+			LensProfileEnable = 1,
+		},
+		uuid = "70A1CFA3-5024-4263-B87D-9A9312EE4DF6",
+	},
+	version = 0,
+}

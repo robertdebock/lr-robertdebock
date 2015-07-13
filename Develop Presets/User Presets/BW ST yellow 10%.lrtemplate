@@ -1,0 +1,19 @@
+s = {
+	id = "3A60EE74-4221-4C01-862C-CFA490BA6074",
+	internalName = "BW ST yellow 10%",
+	title = "BW ST yellow 10%",
+	type = "Develop",
+	value = {
+		settings = {
+			ConvertToGrayscale = true,
+			EnableSplitToning = true,
+			SplitToningBalance = 0,
+			SplitToningHighlightHue = 55,
+			SplitToningHighlightSaturation = 10,
+			SplitToningShadowHue = 55,
+			SplitToningShadowSaturation = 10,
+		},
+		uuid = "718E4228-E067-48EF-BB4B-9BCCCF5BE72E",
+	},
+	version = 0,
+}

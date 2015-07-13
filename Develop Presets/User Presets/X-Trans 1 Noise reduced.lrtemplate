@@ -1,0 +1,19 @@
+s = {
+	id = "F7989FA8-7B4C-4D90-9458-B37EF656B0A7",
+	internalName = "X-Trans Noise reduced",
+	title = "X-Trans 1 Noise reduced",
+	type = "Develop",
+	value = {
+		settings = {
+			ColorNoiseReduction = 5,
+			ColorNoiseReductionDetail = 25,
+			ColorNoiseReductionSmoothness = 0.5,
+			EnableDetail = true,
+			LuminanceNoiseReductionContrast = 25,
+			LuminanceNoiseReductionDetail = 50,
+			ProcessVersion = "6.7",
+		},
+		uuid = "DDDD9B68-2FF0-4A07-A0C0-ADD709AE6A2A",
+	},
+	version = 0,
+}

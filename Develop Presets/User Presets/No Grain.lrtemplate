@@ -1,0 +1,15 @@
+s = {
+	id = "3F231747-CFD4-47BE-8137-F734CD7C6E89",
+	internalName = "No Grain",
+	title = "No Grain",
+	type = "Develop",
+	value = {
+		settings = {
+			GrainAmount = 0,
+			GrainFrequency = 50,
+			GrainSize = 25,
+		},
+		uuid = "5864E5F0-2665-4EBB-82DC-82C9E7F8396F",
+	},
+	version = 0,
+}

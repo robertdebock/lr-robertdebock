@@ -1,0 +1,20 @@
+s = {
+	id = "6924E0E0-40DD-46DA-A1BC-9D82150447C4",
+	internalName = "Vignette",
+	title = "Vignette",
+	type = "Develop",
+	value = {
+		settings = {
+			EnableEffects = true,
+			PostCropVignetteAmount = -15,
+			PostCropVignetteFeather = 50,
+			PostCropVignetteHighlightContrast = 0,
+			PostCropVignetteMidpoint = 50,
+			PostCropVignetteRoundness = 0,
+			PostCropVignetteStyle = 1,
+			ProcessVersion = "6.7",
+		},
+		uuid = "D98A4F73-16D1-4959-801E-B79174050AE3",
+	},
+	version = 0,
+}

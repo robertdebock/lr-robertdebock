@@ -1,0 +1,13 @@
+s = {
+	id = "61A6276A-D43F-4A30-B2A5-8C3821F35018",
+	internalName = "Dehaze 90",
+	title = "Dehaze 90",
+	type = "Develop",
+	value = {
+		settings = {
+			Dehaze = 90,
+		},
+		uuid = "6A763F5E-2EF9-4E4E-BF4F-AC970FDD46B5",
+	},
+	version = 0,
+}
