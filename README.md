@@ -6,3 +6,4 @@ Some of the templates have been designed to work on any file, but some specifica
 
 ## Dehaze
 For the people that bought the perpetual license of Adobe Lightroom (as opposed to the Creative Cloud version), you can now use the de-haze feature. There are templates for 0, 10, 25, 50, 75, 90 and 100%. Be sure to also use these templates on images that are not so hazy/misty. Works great for skies for example.
+*Lightroom 6.1 is required to make these templates work.*
