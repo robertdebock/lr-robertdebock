@@ -1,0 +1,15 @@
+s = {
+	id = "0981A787-E735-457A-AD96-47C5FC4C7879",
+	internalName = "Acros Red",
+	title = "Acros Red",
+	type = "Develop",
+	value = {
+		settings = {
+			CameraProfile = "Camera ACROS+R FILTER",
+			EnableCalibration = true,
+			ProcessVersion = "6.7",
+		},
+		uuid = "75CFD62E-5136-4FD2-A872-28F457F2090B",
+	},
+	version = 0,
+}

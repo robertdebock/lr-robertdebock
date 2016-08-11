@@ -1,0 +1,15 @@
+s = {
+	id = "B1CD8C05-7821-4FC6-B1DE-20DFA60E26FF",
+	internalName = "Classic Chrome",
+	title = "Classic Chrome",
+	type = "Develop",
+	value = {
+		settings = {
+			CameraProfile = "Camera CLASSIC CHROME",
+			EnableCalibration = true,
+			ProcessVersion = "6.7",
+		},
+		uuid = "B132EF66-B488-4ECB-BB8E-8B6B21938B1E",
+	},
+	version = 0,
+}

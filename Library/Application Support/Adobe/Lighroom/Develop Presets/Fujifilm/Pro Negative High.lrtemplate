@@ -1,0 +1,15 @@
+s = {
+	id = "E3C2C219-6FA5-4D4A-8DE0-270C1EF86FA4",
+	internalName = "Pro Negative High",
+	title = "Pro Negative High",
+	type = "Develop",
+	value = {
+		settings = {
+			CameraProfile = "Camera Pro Neg. Hi",
+			EnableCalibration = true,
+			ProcessVersion = "6.7",
+		},
+		uuid = "A6AFAF1C-4943-41BE-B988-CA04F537CA65",
+	},
+	version = 0,
+}

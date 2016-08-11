@@ -1,0 +1,15 @@
+s = {
+	id = "F3F72CE4-447A-4016-A887-C91A04316E2F",
+	internalName = "Velvia",
+	title = "Velvia",
+	type = "Develop",
+	value = {
+		settings = {
+			CameraProfile = "Camera Velvia/VIVID",
+			EnableCalibration = true,
+			ProcessVersion = "6.7",
+		},
+		uuid = "48D5BBCD-E5AE-42E7-8EC7-56706E20B833",
+	},
+	version = 0,
+}

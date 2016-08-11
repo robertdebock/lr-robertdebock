@@ -1,0 +1,15 @@
+s = {
+	id = "B04CCE86-9AAE-409C-9C0F-0477B5B2CBC5",
+	internalName = "Monochrome",
+	title = "Monochrome",
+	type = "Develop",
+	value = {
+		settings = {
+			CameraProfile = "Camera MONOCHROME",
+			EnableCalibration = true,
+			ProcessVersion = "6.7",
+		},
+		uuid = "25D7DE14-C3F9-4CDE-8BCF-6A3A4516161D",
+	},
+	version = 0,
+}

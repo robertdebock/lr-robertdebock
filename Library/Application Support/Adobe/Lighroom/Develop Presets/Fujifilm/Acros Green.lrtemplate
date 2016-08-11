@@ -1,0 +1,15 @@
+s = {
+	id = "4372B3DF-622C-41F1-B085-6BCB6D03E10E",
+	internalName = "Acros Green",
+	title = "Acros Green",
+	type = "Develop",
+	value = {
+		settings = {
+			CameraProfile = "Camera ACROS+G FILTER",
+			EnableCalibration = true,
+			ProcessVersion = "6.7",
+		},
+		uuid = "825C0B0C-4CE6-4A4F-9122-8F1F43FFB58C",
+	},
+	version = 0,
+}

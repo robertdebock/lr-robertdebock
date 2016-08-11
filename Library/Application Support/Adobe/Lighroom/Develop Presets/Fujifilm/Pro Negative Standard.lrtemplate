@@ -1,0 +1,15 @@
+s = {
+	id = "BE5EAAED-39DA-406C-B4F2-6996EF35775E",
+	internalName = "Pro Negative Standard",
+	title = "Pro Negative Standard",
+	type = "Develop",
+	value = {
+		settings = {
+			CameraProfile = "Camera Pro Neg. Std",
+			EnableCalibration = true,
+			ProcessVersion = "6.7",
+		},
+		uuid = "CCD2DA4D-F5F8-46A2-A9AB-6BBFC6BC1FA7",
+	},
+	version = 0,
+}

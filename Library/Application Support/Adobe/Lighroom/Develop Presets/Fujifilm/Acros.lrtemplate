@@ -1,0 +1,15 @@
+s = {
+	id = "AC8C26EB-49E5-4006-B529-D5559666BA36",
+	internalName = "Acros",
+	title = "Acros",
+	type = "Develop",
+	value = {
+		settings = {
+			CameraProfile = "Camera ACROS",
+			EnableCalibration = true,
+			ProcessVersion = "6.7",
+		},
+		uuid = "E3F98556-1F01-4615-97D2-26AF053B03F6",
+	},
+	version = 0,
+}

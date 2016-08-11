@@ -1,0 +1,15 @@
+s = {
+	id = "69D30EE5-E0DF-4C75-9D0E-063961085DDF",
+	internalName = "Provia",
+	title = "Provia",
+	type = "Develop",
+	value = {
+		settings = {
+			CameraProfile = "Camera PROVIA/STANDARD",
+			EnableCalibration = true,
+			ProcessVersion = "6.7",
+		},
+		uuid = "2994F927-0529-4F69-BC92-AD59D7C90945",
+	},
+	version = 0,
+}

@@ -1,0 +1,15 @@
+s = {
+	id = "A3DA3340-BBB1-4D45-BC88-092AC1BB7468",
+	internalName = "Monochrome Yellow",
+	title = "Monochrome Yellow",
+	type = "Develop",
+	value = {
+		settings = {
+			CameraProfile = "Camera MONOCHROME+Ye FILTER",
+			EnableCalibration = true,
+			ProcessVersion = "6.7",
+		},
+		uuid = "8D48E8FE-0CF5-46C7-95A6-7870D33C1115",
+	},
+	version = 0,
+}

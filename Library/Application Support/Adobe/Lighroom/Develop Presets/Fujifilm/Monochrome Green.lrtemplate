@@ -1,0 +1,15 @@
+s = {
+	id = "E5805D93-60B6-43EA-AE6A-C0BDE9BBD41D",
+	internalName = "Monochrome Green",
+	title = "Monochrome Green",
+	type = "Develop",
+	value = {
+		settings = {
+			CameraProfile = "Camera MONOCHROME+G FILTER",
+			EnableCalibration = true,
+			ProcessVersion = "6.7",
+		},
+		uuid = "551C141C-EE5F-42AB-BD0C-84E164250FD2",
+	},
+	version = 0,
+}

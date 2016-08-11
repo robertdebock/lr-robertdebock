@@ -1,0 +1,15 @@
+s = {
+	id = "B4E1E438-EDE9-45D1-B9E5-0A9FA4D4933D",
+	internalName = "Monochrome Red",
+	title = "Monochrome Red",
+	type = "Develop",
+	value = {
+		settings = {
+			CameraProfile = "Camera MONOCHROME+R FILTER",
+			EnableCalibration = true,
+			ProcessVersion = "6.7",
+		},
+		uuid = "8580AB5B-768B-4353-BCB9-2FF14E47E886",
+	},
+	version = 0,
+}

@@ -1,0 +1,15 @@
+s = {
+	id = "0388F906-0222-4401-9F44-3F691E1710C2",
+	internalName = "Astia",
+	title = "Astia",
+	type = "Develop",
+	value = {
+		settings = {
+			CameraProfile = "Camera ASTIA/SOFT",
+			EnableCalibration = true,
+			ProcessVersion = "6.7",
+		},
+		uuid = "5B0E7234-185D-47BB-A7A5-ABADD9255F56",
+	},
+	version = 0,
+}

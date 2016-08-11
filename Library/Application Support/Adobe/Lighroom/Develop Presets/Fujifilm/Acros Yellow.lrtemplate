@@ -1,0 +1,15 @@
+s = {
+	id = "96AF9FF4-6D98-4B92-AA9D-3993A6A4F4B1",
+	internalName = "Acros Yellow",
+	title = "Acros Yellow",
+	type = "Develop",
+	value = {
+		settings = {
+			CameraProfile = "Camera ACROS+Ye FILTER",
+			EnableCalibration = true,
+			ProcessVersion = "6.7",
+		},
+		uuid = "52B10603-451C-4288-B3A5-FD07E5628AD2",
+	},
+	version = 0,
+}
