@@ -1,0 +1,21 @@
+# sudo: required
+
+services:
+  - docker
+
+env:
+  global:
+    - VERSION="1.0.0"
+    - DIR="/data"
+    - CONTAINER="alpine"
+    
+install:
+# Zip it.
+- docker run -v $(pwd):${DIR} ${CONTAINER} cd data ; zip -r robertdebock-lightroom-${VERSION}.zip /data
+
+#script:
+# Publish to Amazon S3.
+#- docker run -v $(pwd):${DIR} ${CONTAINER} /bin/sh ${DIR}/scripts/publish-s3.sh -r eu-west-1 -b apache-tomcat7.el7 -k ${S3KEY} -s ${S3SECRET} -d /data/repository/
+
+notifications:
+  email: false
