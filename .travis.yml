@@ -11,7 +11,7 @@ env:
     
 install:
 # Zip it.
-- docker run -v $(pwd):${DIR} ${CONTAINER} zip -r robertdebock-${VERSION}.zip ${DIR}
+- docker run -v $(pwd):${DIR} ${CONTAINER} apk add zip ; zip -r robertdebock-${VERSION}.zip ${DIR}
 
 #script:
 # Publish to Amazon S3.
