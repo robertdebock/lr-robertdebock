@@ -1,21 +1,9 @@
-# sudo: required
-
-services:
-  - docker
+language: objective-c
 
 env:
   global:
     - VERSION="1.0.0"
-    - DIR="/data"
-    - CONTAINER="alpine"
-    
+    - NAME="lightroom-robertdebock"
+
 install:
-# Zip it.
-- docker run -v $(pwd):${DIR} ${CONTAINER} apk add zip ; zip -r robertdebock-${VERSION}.zip ${DIR}
-
-#script:
-# Publish to Amazon S3.
-#- docker run -v $(pwd):${DIR} ${CONTAINER} /bin/sh ${DIR}/scripts/publish-s3.sh -r eu-west-1 -b apache-tomcat7.el7 -k ${S3KEY} -s ${S3SECRET} -d /data/repository/
-
-notifications:
-  email: false
+- hdiutil create dist/${NAME}-${VERSION}.dmg -srcfolder data/
