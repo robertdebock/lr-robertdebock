@@ -11,7 +11,7 @@ env:
     
 install:
 # Zip it.
-- docker run -v $(pwd):${DIR} ${CONTAINER} cd data ; zip -r robertdebock-lightroom-${VERSION}.zip /data
+- docker run -v $(pwd):${DIR} ${CONTAINER} cd data ; zip -r robertdebock-${VERSION}.zip . -i ~/Library/Application\ Support/Adobe/Lightroom/Develop\ Presets/robertdebock/
 
 #script:
 # Publish to Amazon S3.
