@@ -126,6 +126,6 @@ upload() {
 
 readargs "$@"
 checkargs 
-perpare
+prepare
 delete
 upload
