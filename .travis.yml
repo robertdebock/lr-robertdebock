@@ -6,8 +6,4 @@ env:
     - NAME="lightroom-robertdebock"
 
 install:
-- pwd
-- ls -l
-- ls -l /
-- df -h
-- hdiutil create dist/${NAME}-${VERSION}.dmg -srcfolder data/
+- hdiutil create dist/${NAME}-${VERSION}.dmg -srcfolder Library/
