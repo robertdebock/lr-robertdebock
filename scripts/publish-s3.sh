@@ -113,7 +113,7 @@ checkargs() {
 }
 
 prepare() {
-  pip install awscli
+  sudo pip install awscli
 }
 
 delete() {
