@@ -9,6 +9,8 @@ usage() {
   echo "    The Amazon S3 Bucket to work in."
   echo "  -d DIRECTORY"
   echo "    The local directory to sync."
+  echo "  -f FILE"
+  echo "    The file to sync."
   echo "  -k S3KEY"
   echo "    The Amazon key to use."
   echo "  -s S3SECRET"
@@ -52,6 +54,18 @@ readargs() {
           usage
         fi
       ;;
+      -f)
+        if [ "$2" ] ; then
+          file="$2"
+          shift ; shift
+        else
+          echo "Missing a value for $1."
+          echo
+          shift
+          usage
+        fi
+      ;;
+
       -k)
         if [ "$2" ] ; then
           export AWS_ACCESS_KEY_ID="$2"
@@ -95,8 +109,8 @@ checkargs() {
     echo
     usage
   fi
-  if [ ! "${directory}" ] ; then
-    echo "Missing directory."
+  if [ ! "${directory}" -o ! "${file}"] ; then
+    echo "Missing directory or directory."
     echo
     usage
   fi
@@ -121,7 +135,11 @@ delete() {
 }
 
 upload() {
-  aws s3 sync ${directory} s3://${bucket}
+  if [ ${directory} ] ; then
+    aws s3 sync ${directory} s3://${bucket}
+  elif [ ${file} ] ; then
+    aws s3 cp ${file} s3://${bucket}
+  fi
 }
 
 readargs "$@"
