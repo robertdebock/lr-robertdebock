@@ -3,10 +3,10 @@ language: objective-c
 env:
   global:
     - VERSION="1.0.0"
-    - NAME="lightroom-robertdebock"
+    - NAME="lr-robertdebock"
 
 install:
 - hdiutil create ${NAME}-${VERSION}.dmg -srcfolder Library/
 
 script:
-- /bin/sh ./scripts/publish-s3.sh -r eu-west-1 -b lightroom-templates -k ${S3KEY} -s ${S3SECRET} -f /Users/travis/build/robertdebock/lightroom/${NAME}-${VERSION}.dmg
+- /bin/sh ./scripts/publish-s3.sh -r eu-west-1 -b lr-robertdb -k ${S3KEY} -s ${S3SECRET} -f /Users/travis/build/robertdebock/lightroom/${NAME}-${VERSION}.dmg
