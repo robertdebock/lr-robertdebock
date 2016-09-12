@@ -9,4 +9,4 @@ install:
 - hdiutil create ${NAME}-${VERSION}.dmg -srcfolder Library/
 
 script:
-- /bin/sh ./scripts/publish-s3.sh -r eu-west-1 -b lr-robertdb -k ${S3KEY} -s ${S3SECRET} -f /Users/travis/build/robertdebock/lightroom/${NAME}-${VERSION}.dmg
+- /bin/sh ./scripts/publish-s3.sh -r eu-west-1 -b lr-robertdebbock -k ${S3KEY} -s ${S3SECRET} -f /Users/travis/build/robertdebock/lightroom/${NAME}-${VERSION}.dmg
