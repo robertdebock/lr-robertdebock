@@ -11,4 +11,4 @@ install:
 - ls -l
 
 script:
-- /bin/sh ./scripts/publish-s3.sh -r ${REGION} -b ${NAME} -k ${S3KEY} -s ${S3SECRET} -f /Users/travis/build/robertdebock/${NAME}-${VERSION}.dmg
+- /bin/sh ./scripts/publish-s3.sh -r ${REGION} -b ${NAME} -k ${S3KEY} -s ${S3SECRET} -f ${NAME}-${VERSION}.dmg
