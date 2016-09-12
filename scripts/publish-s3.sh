@@ -109,7 +109,7 @@ checkargs() {
     echo
     usage
   fi
-  if [ ! "${directory}" -o ! "${file}"] ; then
+  if [ ! "${directory}" -o ! "${file}" ] ; then
     echo "Missing directory or directory."
     echo
     usage
